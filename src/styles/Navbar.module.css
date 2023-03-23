@@ -1,4 +1,4 @@
-.icon {
+.user {
     font-size: 3rem;
     color: #20b2f1;
 }
@@ -13,15 +13,64 @@
     background-color: transparent;
     color: white;
     font-family: Bebas Neue, Roboto,'Courier New', Courier, monospace;
-    width: 20%;
+    width: 40%;
     height: 2rem;
     font-size: 1.5rem;
     padding: 5px 20px;
     outline: none;
+    margin: 0 20px;
 }
 .nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .user{
+        font-size: 2rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .searchBar{
+        height: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .user{
+        font-size: 2.5rem;
+    }
+    .logo{
+        font-size: 1.7rem;
+    }
+    .searchBar{
+        height: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .user{
+        font-size: 2.5rem;
+    }
+    .logo{
+        font-size:2rem;
+    }
+    .searchBar{
+        height: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .user{
+        font-size: 3rem;
+    }
+    .logo{
+        font-size:3rem;
+    }
+    .searchBar{
+        height: 2rem;
+    }
 }

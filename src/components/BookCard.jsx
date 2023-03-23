@@ -3,6 +3,7 @@ import styles from "@/styles/BookCard.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStarHalf, faStar } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
+import Link from "next/link";
 export const BookCard = () => {
   return (
     <>
@@ -16,7 +17,7 @@ export const BookCard = () => {
           <FontAwesomeIcon icon={faStarHalf} className={styles.icon} />
         </span>
         <Image src={'/images/eurobo.jpg'} alt={'Livro'} width={200} height={300}/>
-        <p className={styles.review}>Veja Review</p>
+        <Link href={'/'} className={styles.review}>Veja Review</Link>
       </div>
     </>
   );
