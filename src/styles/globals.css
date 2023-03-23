@@ -1,0 +1,11 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Climate Crisis, Bebas Neue,Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	background-color: #1E1E1E;
+}
+ul{
+	list-style: none
+}

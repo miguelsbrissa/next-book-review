@@ -1,0 +1,27 @@
+.icon {
+    font-size: 3rem;
+    color: #20b2f1;
+}
+.logo {
+    color: #20b2f1;
+    font-family: Climate Crisis, Bebas Neue, Roboto,'Courier New', Courier, monospace;
+    font-size: 3rem;
+}
+.searchBar{
+    border-radius: 50px;
+    border: solid #20b2f1 3px;
+    background-color: transparent;
+    color: white;
+    font-family: Bebas Neue, Roboto,'Courier New', Courier, monospace;
+    width: 20%;
+    height: 2rem;
+    font-size: 1.5rem;
+    padding: 5px 20px;
+    outline: none;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
