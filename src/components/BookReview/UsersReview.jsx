@@ -8,7 +8,7 @@ export const UsersReview = () => {
   return (
     <div className={styles.content}>
       <FontAwesomeIcon icon={faStar} className={styles.icon} />
-      <input className={styles.inputreview} placeholder="Digite sua review" />
+      <textarea rows="4" cols="50" className={styles.inputreview} placeholder="Digite sua review" />
       <UserReview />
       <UserReview />
       <UserReview />

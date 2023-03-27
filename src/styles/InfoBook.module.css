@@ -1,8 +1,7 @@
 .content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     padding: 1rem;
-    min-height: 100%;
+    height: auto;
 }
 .content h1 {
     color: #ffff;
@@ -15,14 +14,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
     gap: 1rem;
+    height: auto;
 }
 .right {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 100%;
+    height: auto;
 }
 .rating {
     color: #dfb10f;
@@ -36,9 +35,37 @@
     text-align: justify;
     margin: 0;
 }
-.bookreview{
+.bookreview {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .content {
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .content {
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .content {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: none;
+    }  
 }
