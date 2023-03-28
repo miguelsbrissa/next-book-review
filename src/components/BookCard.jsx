@@ -17,7 +17,7 @@ export const BookCard = () => {
           <FontAwesomeIcon icon={faStarHalf} className={styles.icon} />
         </span>
         <Image src={'/images/eurobo.jpg'} alt={'Livro'} width={200} height={300}/>
-        <Link href={'/'} className={styles.review}>Veja Review</Link>
+        <Link href={'/book_review'} className={styles.review}>Veja Review</Link>
       </div>
     </>
   );

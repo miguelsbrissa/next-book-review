@@ -6,6 +6,7 @@
     color: #20b2f1;
     font-family: Climate Crisis, Bebas Neue, Roboto,'Courier New', Courier, monospace;
     font-size: 3rem;
+    text-decoration: none;
 }
 .searchBar{
     border-radius: 50px;

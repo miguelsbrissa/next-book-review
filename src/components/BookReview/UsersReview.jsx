@@ -7,7 +7,8 @@ import { faStarHalf, faStar } from "@fortawesome/free-solid-svg-icons";
 export const UsersReview = () => {
   return (
     <div className={styles.content}>
-      <textarea rows="4" cols="50" className={styles.inputreview} placeholder="Digite sua review" />
+      <textarea rows="7" cols="50" className={styles.inputReview} placeholder="Digite sua review" />
+      <input type="button" value="Enviar" className={styles.btnReview}/>
       <UserReview />
       <UserReview />
       <UserReview />
