@@ -13,15 +13,49 @@
 }
 .rating {
     color: #dfb10f;
-    font-size: 1.5rem;
     margin-bottom: 0;
 }
 .review {
     background-color: #ffff;
     padding: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
     color: #000000;
     font-weight: bold;
     width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .username{
+        font-size: 2rem;
+    }
+    .rating{
+        font-size: 1rem;
+    }
+    .review{
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .username{
+        font-size: 2.5rem;
+    }
+    .rating{
+        font-size: 1rem;
+    }
+    .review{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .username{
+        font-size: 3rem;
+    }
+    .rating{
+        font-size: 1.5rem;
+    }
+    .review{
+        font-size: 1rem;
+    }
 }
