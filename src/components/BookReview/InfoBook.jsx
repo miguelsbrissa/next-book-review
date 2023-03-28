@@ -6,7 +6,6 @@ import React from "react";
 
 export const InfoBook = () => {
   return (
-    <>
       <div className={styles.content}>
         <div className={styles.left}>
           <h1>Titulo</h1>
@@ -44,6 +43,5 @@ export const InfoBook = () => {
           </p>
         </div>
       </div>
-    </>
   );
 };

@@ -1,5 +1,5 @@
 .content {
-    display: grid;
+    display: flex;
     padding: 1rem;
     height: auto;
 }
@@ -16,12 +16,14 @@
     align-items: center;
     gap: 1rem;
     height: auto;
+    margin: 1rem;
 }
 .right {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     height: auto;
+    margin: 1rem;
 }
 .rating {
     color: #dfb10f;
@@ -44,28 +46,25 @@
 
 @media only screen and (max-width: 600px) {
     .content {
-        grid-template-columns: none;
-        grid-template-rows: repeat(2, 1fr);
+        flex-direction: column;
     }
 }
 
 @media only screen and (min-width: 600px) {
     .content {
-        grid-template-columns: none;
-        grid-template-rows: repeat(2, 1fr);
+        flex-direction: column;
     }
 }
 
 @media only screen and (min-width: 768px) {
     .content {
-        grid-template-columns: none;
-        grid-template-rows: repeat(2, 1fr);
+        flex-direction: column;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .content {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: none;
+        flex-direction: row;
+        width: 50%;
     }  
 }
